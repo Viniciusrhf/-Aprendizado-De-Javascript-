@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policia Federal</title>
+</head>
+<body>
+    
+    <h1>Sistema de identificação!</h1>
+    <input type="text" name="txtt" id="txt">
+    <input type="button" value="Verificar" onclick="identificar()">
+    <div id="msg">
+
+    </div>
+    <script>
+
+        function identificar(){
+            var p = document.querySelector('input#txt')
+            var com = document.querySelector('div#msg')
+            var pais = (p.value)
+            if(pais == 'Brasil'){
+                com.innerHTML = 'Você é Brasileiro!'
+            }else{
+                com.innerHTML = 'Você é estrangeiro'
+            } 
+        }
+    
+
+    </script>
+    
+</body>
+</html>
