@@ -1,2 +1,2 @@
 # Aprendizado De Javascript
- Material de minhas aulas e exercicios.
+ Material de minhas aulas e exercícios.
